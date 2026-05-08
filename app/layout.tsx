@@ -15,8 +15,35 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "LANGGUTH Céline Doris",
-  description: "Créatrice de contenu lifestyle, beauté et culture.",
+  metadataBase: new URL("https://celinecollaboration.com"),
+
+  title: "LANGGUTH Céline Doris — Créatrice de contenu",
+  description:
+    "Créatrice de contenu lifestyle, beauté et culture. Collaborations, shootings, campagnes et événements.",
+
+  openGraph: {
+    title: "LANGGUTH Céline Doris",
+    description: "Créatrice de contenu lifestyle, beauté et culture.",
+    url: "https://celinecollaboration.com",
+    siteName: "Céline Collaboration",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 2000,
+        height: 2000,
+        alt: "LANGGUTH Céline Doris",
+      },
+    ],
+    locale: "fr_FR",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "LANGGUTH Céline Doris",
+    description: "Créatrice de contenu lifestyle, beauté et culture.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({

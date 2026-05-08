@@ -28,9 +28,9 @@ export const metadata: Metadata = {
     siteName: "Céline Collaboration",
     images: [
       {
-        url: "/og-image.png",
-        width: 2000,
-        height: 2000,
+        url: "/og-image.jpeg",
+        width: 720,
+        height: 1280,
         alt: "LANGGUTH Céline Doris",
       },
     ],
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "LANGGUTH Céline Doris",
     description: "Créatrice de contenu lifestyle, beauté et culture.",
-    images: ["/og-image.png"],
+    images: ["/og-image.jpeg"],
   },
 };
 
